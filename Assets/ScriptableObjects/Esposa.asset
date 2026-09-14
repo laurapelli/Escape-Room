@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 412c859335877d8cfbc2ddc85f688725, type: 3}
+  m_Name: Esposa
+  m_EditorClassIdentifier: 
+  id: 1
+  displayName: Esposa
+  icon: {fileID: 21300000, guid: 30d493b49a323b34795e0faca2552a84, type: 3}
+  prefab: {fileID: 1153733876917335009, guid: 26188adc268475411b285fea46e5e377, type: 3}
