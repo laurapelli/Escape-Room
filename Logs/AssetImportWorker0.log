@@ -1,0 +1,292 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.6f1 (8c4e826ba445) revision 9195138'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Core' Language: 'es' Physical Memory: 16212 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Unity Hub\Editor\2021.2.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Unity/EscapeRoom_V1.1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+65464
+Successfully changed project path to: D:/Unity/EscapeRoom_V1.1
+D:/Unity/EscapeRoom_V1.1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 286.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.6f1 (8c4e826ba445)
+[Subsystems] Discovering subsystems at path D:/Unity/Unity Hub/Editor/2021.2.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/EscapeRoom_V1.1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce MX350 (ID=0x1c94)
+    Vendor:   NVIDIA
+    VRAM:     1979 MB
+    Driver:   27.21.14.6611
+Initialize mono
+Mono path[0] = 'D:/Unity/Unity Hub/Editor/2021.2.6f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Unity Hub/Editor/2021.2.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Unity Hub/Editor/2021.2.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Unity Hub/Editor/2021.2.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.021628 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 162.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.110 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1111ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (783ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (169ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (479ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (28ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (163ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (209ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.019892 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\EscapeRoom_V1.1\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\EscapeRoom_V1.1\Library\PackageCache\com.unity.visualscripting@1.7.5\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 158.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.847 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2848ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (2447ms)
+			LoadAssemblies (190ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (374ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (98ms)
+			SetupLoadedEditorAssemblies (1745ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (159ms)
+				BeforeProcessingInitializeOnLoad (178ms)
+				ProcessInitializeOnLoadAttributes (1312ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (26ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3935 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 43 unused Assets / (225.6 KB). Loaded Objects now: 4386.
+Memory consumption went from 149.7 MB to 149.5 MB.
+Total: 5.566800 ms (FindLiveObjects: 0.451400 ms CreateObjectMapping: 0.395600 ms MarkObjects: 4.492300 ms  DeleteObjects: 0.225800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 874539.878786 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (12).png
+  artifactKey: Guid(9df2df62df28b364a95b4487ffed7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (12).png using Guid(9df2df62df28b364a95b4487ffed7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1b329dea24e713107f7005646f1b92') in 0.176543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.541415 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (12).png
+  artifactKey: Guid(9df2df62df28b364a95b4487ffed7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (12).png using Guid(9df2df62df28b364a95b4487ffed7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eced3118932e34c9b84fe25996557e6') in 0.015507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.527436 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (12).png
+  artifactKey: Guid(9df2df62df28b364a95b4487ffed7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (12).png using Guid(9df2df62df28b364a95b4487ffed7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7f1a77b3d5619764fc6d4d9478e3058') in 0.014105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 81.439764 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (12).png
+  artifactKey: Guid(9df2df62df28b364a95b4487ffed7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (12).png using Guid(9df2df62df28b364a95b4487ffed7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8917b1c8c3ee4194982dc6943571d438') in 0.018752 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.242664 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (12).png
+  artifactKey: Guid(9df2df62df28b364a95b4487ffed7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (12).png using Guid(9df2df62df28b364a95b4487ffed7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b2cba07bd2ef3df1559477d2747622') in 0.022326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 268.368421 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (12).png
+  artifactKey: Guid(9df2df62df28b364a95b4487ffed7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (12).png using Guid(9df2df62df28b364a95b4487ffed7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b541fd62c0816b643dcb4e27e8fbaf9c') in 0.021770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.355223 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (13).png
+  artifactKey: Guid(add796121bb289741a0123b01659f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (13).png using Guid(add796121bb289741a0123b01659f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b744bf57b4b78ffb381b9f0310820912') in 0.018127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.616050 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (14).png
+  artifactKey: Guid(aa83dfd478bc7924fad0f1bf9ba71553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (14).png using Guid(aa83dfd478bc7924fad0f1bf9ba71553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4feb99bbd282152f0f4b842b2219e9cd') in 0.021218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.201264 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (13).png
+  artifactKey: Guid(add796121bb289741a0123b01659f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (13).png using Guid(add796121bb289741a0123b01659f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad75ab01eeb3fda97950f236d494556') in 0.011670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.259467 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (13).png
+  artifactKey: Guid(add796121bb289741a0123b01659f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (13).png using Guid(add796121bb289741a0123b01659f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ed21fe461354bdcd932c3b87baf5a9') in 0.011020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.849422 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (13).png
+  artifactKey: Guid(add796121bb289741a0123b01659f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (13).png using Guid(add796121bb289741a0123b01659f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45790d9c9d0d499ba72468449a29399e') in 0.022387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.866533 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (12).png
+  artifactKey: Guid(9df2df62df28b364a95b4487ffed7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (12).png using Guid(9df2df62df28b364a95b4487ffed7730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d1570ea16cd4ea78e00128bc484d8e') in 0.024816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.494293 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (14).png
+  artifactKey: Guid(aa83dfd478bc7924fad0f1bf9ba71553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (14).png using Guid(aa83dfd478bc7924fad0f1bf9ba71553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f06552a619f7a4c1b395afe17cecdd') in 0.011113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.961479 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (14).png
+  artifactKey: Guid(aa83dfd478bc7924fad0f1bf9ba71553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (14).png using Guid(aa83dfd478bc7924fad0f1bf9ba71553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a558a1798f8c492cf2b8983de9b33cc') in 0.011937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 89.107296 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (14).png
+  artifactKey: Guid(aa83dfd478bc7924fad0f1bf9ba71553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (14).png using Guid(aa83dfd478bc7924fad0f1bf9ba71553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0aab54db1c37bacdec2c5030e30a63') in 0.022587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.203634 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (13).png
+  artifactKey: Guid(add796121bb289741a0123b01659f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/pixil-frame-0 (13).png using Guid(add796121bb289741a0123b01659f445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd72b6b2ff4f5f2d4671c07392b2588') in 0.022215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 187.946695 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/Walk Cientifico.anim
+  artifactKey: Guid(1432215f20d237d4fb2f986fe5601e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/Walk Cientifico.anim using Guid(1432215f20d237d4fb2f986fe5601e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feef0f41ea5277ba1aa786f869f6dfa2') in 0.013640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.950551 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/Walk Cientifico 1.anim
+  artifactKey: Guid(61ed033e8bf537146998580d0675db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/Walk Cientifico 1.anim using Guid(61ed033e8bf537146998580d0675db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6274942ca47a277e94ac36a72d213fd8') in 0.006205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.800703 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/WalkFront.anim
+  artifactKey: Guid(61ed033e8bf537146998580d0675db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/WalkFront.anim using Guid(61ed033e8bf537146998580d0675db0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a61c900bc5276b885660526386bd369f') in 0.007992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 101.964119 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/Walk Cientifico.anim
+  artifactKey: Guid(1432215f20d237d4fb2f986fe5601e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/Walk Cientifico.anim using Guid(1432215f20d237d4fb2f986fe5601e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2542483217dd0cb77b63cc91416fa8') in 0.003883 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.495716 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/CrazyScientist.controller
+  artifactKey: Guid(895e117502cf97d4ba06791a2e7daa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/CrazyScientist.controller using Guid(895e117502cf97d4ba06791a2e7daa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e327b13f31446ce82ab38538cb0c5a0') in 0.010330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 69.465330 seconds.
+  path: Assets/Artwork/Animations/Cientíifico/CrazyScientist.controller
+  artifactKey: Guid(895e117502cf97d4ba06791a2e7daa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Artwork/Animations/Cientíifico/CrazyScientist.controller using Guid(895e117502cf97d4ba06791a2e7daa50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ff81f6110a4239f8591c9b42be1f641') in 0.004402 seconds 
